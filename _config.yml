@@ -1,10 +1,9 @@
 # Site settings
 title: 浪子不回头Blog
-description: >
-    浪C笔记
+description: 浪C笔记
 author: 0x49
 email: kingone@88.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pub999.github.io" # the base hostname & protocol for your site
 twitter_username: none
 github_username:  pub999
