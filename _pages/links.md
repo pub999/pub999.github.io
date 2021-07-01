@@ -1,8 +1,6 @@
 ---
 layout: page
-title: Links
+title: 友情链接
 permalink: /links/
 ---
-Share links here.
-
 

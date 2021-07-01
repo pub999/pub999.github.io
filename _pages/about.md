@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About
+title: 关于
 permalink: /about/
 ---
-Talk about yourself.
+
+太懒了,啥也没留下!
 
 
