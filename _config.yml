@@ -1,15 +1,15 @@
 # Site settings
-title: Your site
+title: 浪子不回头
 description: >
     Your description
-author: Your name
-email: your@e.mail
+author: 0x49
+email: kingone@88.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourname.github.io" # the base hostname & protocol for your site
-twitter_username: YourTwitter
-github_username:  YourGitHub
+url: "https://pub999.github.io" # the base hostname & protocol for your site
+twitter_username: none
+github_username:  pub999
 
-disqus_shortname: YourDisqusShortname
+disqus_shortname: 浪C
 
 # Build settings
 include: [_pages]

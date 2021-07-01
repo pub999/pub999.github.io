@@ -6,7 +6,36 @@
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link href="//fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext,vietnamese"rel="stylesheet">
+    <style>
+        
+/* inconsolata-regular */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: regular;
+  src: url('//lib.baomitu.com/fonts/inconsolata/inconsolata-regular.eot'); /* IE9 Compat Modes */
+  src: local('Inconsolata'), local('Inconsolata-Normal'),
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-regular.woff') format('woff'), /* Modern Browsers */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+  
+/* inconsolata-700 */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: url('//lib.baomitu.com/fonts/inconsolata/inconsolata-700.eot'); /* IE9 Compat Modes */
+  src: local('Inconsolata'), local('Inconsolata-Normal'),
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-700.woff') format('woff'), /* Modern Browsers */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('//lib.baomitu.com/fonts/inconsolata/inconsolata-700.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+    </style>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
