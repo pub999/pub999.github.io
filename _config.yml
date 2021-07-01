@@ -1,7 +1,7 @@
 # Site settings
-title: 浪子不回头
+title: 浪子不回头Blog
 description: >
-    Your description
+    浪C笔记
 author: 0x49
 email: kingone@88.com
 baseurl: "" # the subpath of your site, e.g. /blog
