@@ -8,8 +8,6 @@ url: "https://pub999.github.io" # the base hostname & protocol for your site
 twitter_username: none
 github_username:  pub999
 
-disqus_shortname: 浪C
-
 # Build settings
 include: [_pages]
 markdown: kramdown
